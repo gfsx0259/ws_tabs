@@ -1,0 +1,7 @@
+.accordion a.block_label {
+    display: block;
+}
+
+.accordion .block_content {
+    overflow: hidden;
+}

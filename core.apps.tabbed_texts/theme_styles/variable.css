@@ -1,0 +1,72 @@
+/*tabbed_tabs|Tabs box*/
+.tabbed_tabs {
+    position: relative;
+}
+
+
+/*tabbed_tabs_img|Tab icon*/
+.tabbed_tabs img {
+    vertical-align: middle;
+    border: 0;
+    margin: 0 5px 0 0;
+}
+
+/*tabs_roller_box|Tabs viewport*/
+.tabbed_tabs .tabs_roller_box {
+    height: 33px;
+}
+
+/*tabs_roller|Tabs scrolable content*/
+.tabbed_tabs .tabs_roller {
+    font: normal 12px Tahoma;
+    width: 30000px;
+}
+
+/*tabbed_tabs_a|Tab*/
+.tabbed_tabs a {
+    float: left;
+    height: 33px;
+    padding: 10px 12px;
+    margin: 0 4px 0 0;
+    border: 1px solid #626262;
+    border-bottom: 0;
+    color: #333;
+    text-decoration: none;
+    background: #FFF;
+}
+/*tabbed_tabs_a:hover|Tab mouse over*/
+.tabbed_tabs a:hover {
+    background: transparent;
+    text-decoration: underline;
+    background: #FFF;
+}
+
+/*tabbed_tabs_span|Tab text*/
+.tabbed_tabs span {
+    overflow: hidden;
+}
+
+
+/*tabbed_tabs_active|Selected tab*/
+.tabbed_tabs a.active {
+    text-decoration: none;
+    cursor: default;
+    color: #FFF;
+    background: #626262;
+}
+
+/*tabbed_tabs_active:hover|Selected tab mouse over*/
+.tabbed_tabs a.active:hover {
+    text-decoration: none;
+    cursor: default;
+    color: #FFF;
+    background: #626262;
+}
+
+
+/*tabbed_content|Tab content*/
+.tabbed_content {
+    border: 1px solid #626262;
+    padding: 10px;
+    background: #FFF;
+}

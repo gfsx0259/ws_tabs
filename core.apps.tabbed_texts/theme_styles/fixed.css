@@ -1,0 +1,20 @@
+.tabbed {
+    position: relative;
+}
+
+.tabbed_tabs,
+.tabbed_tabs .tabs_roller_box,
+.tabbed .content_roller_box {
+    overflow: hidden;
+}
+
+.tabbed .content_roller {
+    width: 30000px;
+}
+.tabbed table.tabs_content,
+.tabbed table.tabs_content td {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    vertical-align: top;
+}

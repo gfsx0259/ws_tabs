@@ -1,0 +1,13 @@
+<tpl name="thumbnails">
+    <div class="thumbnails" events="wheel=OnWheel;onmousewheel=OnWheel">
+        <div class="btn_roll_left" id="btn_roll_left" events="onclick=onRollLeftClick"></div>
+        <div class="btn_roll_right" id="btn_roll_right" events="onclick=onRollRightClick"></div>
+        <div class="r">
+            <div class="l">
+                <div class="scroller" id="scroller">
+                    <div class="scroller_body" id="scroller_body" style="position:relative" events="mouseover=onMouseOver;mouseout=onMouseOut"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</tpl>

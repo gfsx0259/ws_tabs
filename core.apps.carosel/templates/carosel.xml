@@ -1,0 +1,41 @@
+<tpl name="carosel">
+    <table class="carosel">
+        <tr>
+            <td class="tl"> </td>
+            <td class="tc">
+                <div id="arrow_top" class="arrow_top"></div>
+            </td>
+            <td class="tr"> </td>
+        </tr>
+
+        <tr>
+            <td class="ml">
+                <div id="arrow_left" class="arrow_left"></div>
+            </td>
+
+            <td class="mc">
+                <div id="maincontainer" style="position:relative;overflow:hidden" class="main_container">
+                    <div id="subcontainer" style="position:absolute" >
+                        <table  id="carosel_maincontainer_table">
+                            <tr id="carosel_maincontainer_row">
+                                <td id="carosel_maincontainer_cell"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+
+            <td class="mr">
+                <div id="arrow_right" class="arrow_right"></div>
+            </td>
+       </tr>
+
+       <tr>
+            <td class="bl"> </td>
+            <td class="bc">
+                <div id="arrow_bottom" class="arrow_bottom"></div>
+            </td>
+            <td class="br"> </td>
+       </tr>
+    </table>
+</tpl>

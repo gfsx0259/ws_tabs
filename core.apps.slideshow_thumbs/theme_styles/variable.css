@@ -1,0 +1,102 @@
+/*img_box|Image box*/
+    .slideshow_thumbs .img_box {
+        margin-right: 70px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+/*img|Image*/
+.slideshow_thumbs .img_box img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+/*scroller_box|Scroller box*/
+.slideshow_thumbs .scroller_box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 70px;
+}
+
+
+/*scroller_scroller_wrapper|Scroller wrapper*/
+.slideshow_thumbs .scroller_wrapper {
+    overflow: hidden;
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 0;
+    width: 70px;
+}
+
+/*scroller_content|Scroller content*/
+.slideshow_thumbs .scroller_content {
+    width: 64px;
+    margin-left: 6px;
+}
+
+/*scroller_content_a|Scroller content link*/
+.slideshow_thumbs .scroller_content a {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 4px;
+    outline: none;
+}
+
+/*scroller_content_a:hover|Scroller content link hover*/
+.slideshow_thumbs .scroller_content a {
+}
+
+/*scroller_content_active|Scroller content active item*/
+.slideshow_thumbs .scroller_content .active {
+}
+
+/*scroller_content_img|Scroller content image*/
+.slideshow_thumbs .scroller_content img {
+    width: 100%;
+    height: 100%;
+}
+
+/*scroller_content_img:hover|Scroller content image:hover*/
+.slideshow_thumbs .scroller_content img:hover{
+
+}
+
+/*btn_prev|Button prev*/
+.slideshow_thumbs .btn_prev {
+    position: absolute;
+    left: 30px;
+    width: 11px;
+    height: 8px;
+    cursor: pointer;
+    top: 0;
+    background: transparent url(/themes/.default/images/arrow_up.png) no-repeat;
+}
+/*btn_next|Button next*/
+.slideshow_thumbs .btn_next {
+    position: absolute;
+    left: 30px;
+    width: 11px;
+    height: 8px;
+    cursor: pointer;
+    bottom: 0;
+    background: transparent url(/themes/.default/images/arrow_down.png) no-repeat;
+}
+/*btn_zoom|Button zoom*/
+.img_box_center .btn_zoom {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 85%;
+}
+
+/*btn_zoom:hover|Button zoom hover*/
+.img_box_center .btn_zoom:hover {
+background: url("/themes/_dev/images/btn_zoom.png") no-repeat scroll center center transparent;
+}
+

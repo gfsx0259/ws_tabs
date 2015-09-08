@@ -1,0 +1,29 @@
+<tpl name="tabbed_apps">
+    <div class="tabbed" id="tabbed">
+        <div class="tabbed_tl"><div class="tabbed_tr"><div class="tabbed_tc"></div></div></div>
+
+        <div class="tabbed_tabs" id="tabs_box">
+            <div class="tabs_roller_box" id="tabs_roller_box">
+                <div class="tabs_roller" id="tabs_roller"></div>
+            </div>
+            <div class="nav">
+                <div id="nav_l" class="nav_l" events="onclick=onTabsNavLeftClick"></div>
+                <div id="nav_r" class="nav_r" events="onclick=onTabsNavRightClick"></div>
+            </div>
+        </div>
+
+        <div class="tabbed_content">
+            <div class="tabbed_content_inner">
+                <div class="content_roller_box" id="content_roller_box">
+                    <div class="content_roller" id="content_roller">
+                        <table class="tabs_content">
+                            <tr id="row"></tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tabbed_bl"><div class="tabbed_br"><div class="tabbed_bc"></div></div></div>
+    </div>
+</tpl>

@@ -1,0 +1,17 @@
+<tpl name="slideshow_thumbs">
+    <div class="slideshow_thumbs">
+        <div id="img_box" class="img_box">
+            <img id="img"/>
+            <div class="img_box_center">
+                <div class="btn_zoom" events="onclick=onZoomClick"></div>
+            </div>
+        </div>
+        <div class="scroller_box">
+            <div id="btn_prev" class="btn_prev" events="onclick=onPrevClick"></div>
+            <div id="btn_next" class="btn_next" events="onclick=onNextClick"></div>
+            <div id="scroller_wrapper" class="scroller_wrapper">
+                <div id="scroller_content" class="scroller_content"></div>
+            </div>
+        </div>
+    </div>
+</tpl>

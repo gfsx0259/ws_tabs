@@ -1,0 +1,8 @@
+.thumbnails .scroller {
+    overflow: hidden;
+    position: relative;
+}
+
+.thumbnails .scroller_body {
+    position: absolute;
+}

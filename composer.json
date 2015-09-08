@@ -1,0 +1,12 @@
+{
+    "name": "generdyn\/tabs",
+    "description": "tabs websemble apps composer package",
+    "homepage": "http:\/\/websemble.com",
+    "license": "MIT",
+    "support": {
+        "email": "konst@generdyn.com"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    }
+}

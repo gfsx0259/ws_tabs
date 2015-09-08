@@ -1,0 +1,107 @@
+/*container|Container*/
+.thumbnails {
+    position: relative;
+    background: transparent url(/themes/.default/images/thumbnails/box.png) no-repeat left top;
+}
+
+
+/*container_rd|Container right door*/
+.thumbnails .r {
+    margin-left: 10px;
+    background: transparent url(/themes/.default/images/thumbnails/box.png) no-repeat right top;
+}
+
+
+/*container_ld|Container left door*/
+.thumbnails .l {
+    margin-right: 10px;
+    height: 190px;
+    padding: 10px 0;
+    width: auto;
+    background: #d9e8ff;
+}
+
+
+/*btn_roll_left|Button scroll left*/
+.thumbnails .btn_roll_left {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 10;
+    top: 96px;
+    background: transparent url(/themes/.default/images/thumbnails/arrows.gif) no-repeat left top;
+    left: 8px;
+}
+
+/*btn_roll_right|Button scroll right*/
+.thumbnails .btn_roll_right {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 10;
+    top: 96px;
+    background: transparent url(/themes/.default/images/thumbnails/arrows.gif) no-repeat right top;
+    right: 8px;
+}
+
+
+
+/*viewport|Viewport*/
+.thumbnails .scroller {
+    height: 190px;
+    margin: 0 15px;
+    background: #FFF;
+}
+
+/*scroller_body|Scroller content*/
+.thumbnails .scroller_body {
+    height: 190px;
+}
+
+
+/*item|Item*/
+.thumbnails a.thumb {
+    float: left;
+    width: 183px;
+    height: 190px;
+    padding: 8px;
+    color: #9A9A9A;
+    text-decoration: underline;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+/*item_border|Item box*/
+.thumbnails .border {
+    width: 173px;
+    height: 148px;
+    background: transparent url(/themes/.default/images/thumbnails/border.png) no-repeat left top;
+    padding: 5px;
+}
+
+/*item_pic|Item image*/
+.thumbnails .pic {
+    width: 173px;
+    height: 148px;
+    overflow: hidden;
+    background-position: 50% 50%;
+}
+
+/*item_title|Item title*/
+.thumbnails .title {
+    margin: 3px 5px 0 5px;
+    width: 173px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+/*item:hover|Item mouse over*/
+.thumbnails a.thumb:hover {
+    color: inherit;
+    text-decoration: underline;
+    background: transparent;
+}

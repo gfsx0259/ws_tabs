@@ -1,0 +1,37 @@
+table.carosel,
+table.carosel tr
+table.carosel td {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    vertical-align: top;
+}
+
+    .carosel .tl {
+        width: 1%;
+    }
+    .carosel .tc {
+        width: 98%;
+    }
+    .carosel .tr {
+        width: 1%;
+    }
+    .carosel .ml {
+        width: 1%;
+    }
+    .carosel .mc {
+        width: 98%;
+    }
+    .carosel .mr {
+        width: 1%;
+    }
+    .carosel .bl {
+        width: 1%;
+    }
+    .carosel .bc {
+        width: 98%;
+    }
+    .carosel .br {
+        width: 1%;
+    }

@@ -1,0 +1,41 @@
+/*block_label|Label*/
+.accordion a.block_label {
+    background: #9C0;
+    color: #FFF;
+    padding: 4px 12px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1px;
+    font-weight: bold;
+}
+
+/*block_label:hover|Label mouse over*/
+.accordion a.block_label:hover {
+    background: #0CF;
+}
+
+/*block_label_active|Active label*/
+.accordion a.block_label_active {
+    background: #0CF;
+    cursor: default;
+}
+
+/*block_label_active:hover|Active label mouse over*/
+.accordion a.block_label_active:hover {
+    background: #0CF;
+    cursor: default;
+}
+
+/*block_label_img|Label image*/
+.accordion a.block_label img {
+    vertical-align: middle;
+    border: 0;
+    margin: 0 5px 0 0;
+    width: 16px;
+    height: 16px;
+}
+
+/*block_content|Block content*/
+.accordion .block_content {
+    margin: 1px 12px;
+}
