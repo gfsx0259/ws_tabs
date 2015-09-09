@@ -91,7 +91,7 @@ core.apps.accordion.extendPrototype({
                 doc: "Content:"
             },
             files_filter: "pictures"
-        }
+        };
         desktop.showPopupApp("list_editor");
     },
 
@@ -180,7 +180,7 @@ core.apps.accordion.extendPrototype({
         var res = {
             title: this.profile.title,
             list: this.getItemsList()
-        }
+        };
         return res;
     },
 

@@ -10,14 +10,14 @@ core.apps.thumbnails = function(args) {
         enable_auto_scroll:0,
         stop_hover:0
 
-    }
+    };
 
     this.k = 100;//softness
     this.timer;//for animation
     this.timer_active = false;
     this.is_featured_list = {};
     this.autoTimer;
-}
+};
 
 
 core.apps.thumbnails.prototype = {
@@ -70,6 +70,7 @@ core.apps.thumbnails.prototype = {
             this.items = this.getItems();
         }
 
+        if(!this.checkContentExist()) return false;
         for(var i=0; i<this.items.length; i++) {
             var m = this.items[i];
             var url = m.url;
@@ -107,8 +108,7 @@ core.apps.thumbnails.prototype = {
     },
 
     setActive:function(){
-
-
+        if(!this.checkContentExist()) return false;
        this.autoTimer = setTimeout(this.onRollRightClick.bind(this), 1000 * this.profile["speed"]);
     },
 
@@ -138,6 +138,7 @@ core.apps.thumbnails.prototype = {
     },
 
     putLeft:function(){
+        if(!this.checkContentExist()) return false;
         var actualChildNodes = this.$["scroller_body"].childNodes;
         var last = actualChildNodes[actualChildNodes.length-1].cloneNode(true);
         this.$["scroller_body"].insertBefore(last,actualChildNodes[0]);
@@ -146,18 +147,21 @@ core.apps.thumbnails.prototype = {
 
 
     deleteLeft:function(){//delete from right side after completion of animation
+        if(!this.checkContentExist()) return false;
         var actualChildNodes = this.$["scroller_body"].childNodes;
         actualChildNodes[actualChildNodes.length-1].remove();
         this.$["scroller_body"].style.left = -this.step+"px";
     },
 
     putRight:function(){
+        if(!this.checkContentExist()) return false;
         var actualChildNodes = this.$["scroller_body"].childNodes;
         var first = actualChildNodes[0].cloneNode(true);
         this.$["scroller_body"].appendChild(first);
     },
 
     deleteRight:function(){//remove from left side before completion of animation
+        if(!this.checkContentExist()) return false;
         var actualChildNodes = this.$["scroller_body"].childNodes;
         actualChildNodes[0].remove();
         this.$["scroller_body"].style.left = -this.step+"px";
@@ -195,7 +199,7 @@ core.apps.thumbnails.prototype = {
         animate:function(el,offset,duration,already,callback,environ){
 
         var obj = environ ? environ : this;
-        var el = obj.$["scroller_body"]
+        var el = obj.$["scroller_body"];
 
         already = already || 0;
         var actualOffset = offset/this.k;
@@ -220,6 +224,13 @@ core.apps.thumbnails.prototype = {
 
     },
 
+    checkContentExist: function(){
+        if(typeof(this.items)=='undefined'){
+            return false
+        } else{
+            return true
+        };
+    },
 
     OnWheel:function(e){
         if(!this.profile["enable_scrolling"]){
@@ -250,6 +261,6 @@ core.apps.thumbnails.prototype = {
         }
     }
 
-}
+};
 core.apps.thumbnails.extendPrototype(core.components.html_component);
 core.apps.thumbnails.extendPrototype(core.components.desktop_app);

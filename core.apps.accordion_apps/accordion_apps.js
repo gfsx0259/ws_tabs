@@ -5,7 +5,7 @@ core.apps.accordion_apps = function(args) {
         app_style: "",
         list: [],
         event: "onclick" 
-    }
+    };
 
     this.states = [];
     this.steps = 10;
@@ -14,7 +14,7 @@ core.apps.accordion_apps = function(args) {
     
 //    this.theme_style_key = "accordion";
 
-}
+};
 
 
 core.apps.accordion_apps.prototype = {
@@ -160,6 +160,6 @@ core.apps.accordion_apps.prototype = {
     }
 
 
-}
+};
 core.apps.accordion_apps.extendPrototype(core.components.html_component);
 core.apps.accordion_apps.extendPrototype(core.components.desktop_app);

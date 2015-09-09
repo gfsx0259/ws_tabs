@@ -83,7 +83,7 @@ core.apps.tabbed_widgets.extendPrototype({
                 file: "Icon:"
             },
             files_filter: "pictures"
-        }
+        };
         desktop.showPopupApp("list_editor");
     },
 
@@ -132,8 +132,7 @@ core.apps.tabbed_widgets.extendPrototype({
                     res.push({ 
                         wid: wid, 
                         name: app.appName, 
-                        pos: i, 
-                        owner: this.id 
+                        pos: i
                     });
                 }
             }

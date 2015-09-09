@@ -115,7 +115,7 @@ core.apps.slides.extendPrototype({
                 doc: "Content:"
             },
             files_filter: "pictures"
-        }
+        };
         desktop.showPopupApp("list_editor");
     },
 

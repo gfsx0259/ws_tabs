@@ -9,7 +9,7 @@ core.apps.tabbed_apps = function(args) {
         list: [],
         style: "",
         speed: 1
-    }
+    };
 
     this.active_tab_idx = null;
     this.intervals = [ 10, 30, 45 ];
@@ -18,7 +18,7 @@ core.apps.tabbed_apps = function(args) {
     this.blocks_count = 0;
 
 //    this.theme_style_key = "tabbed_texts";
-}
+};
 
 
 core.apps.tabbed_apps.prototype = {
@@ -243,6 +243,6 @@ core.apps.tabbed_apps.prototype = {
         return this.$["tab_content" + idx];
     }
 
-}
+};
 core.apps.tabbed_apps.extendPrototype(core.components.html_component);
 core.apps.tabbed_apps.extendPrototype(core.components.desktop_app);

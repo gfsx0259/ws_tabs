@@ -5,13 +5,13 @@ core.apps.slideshow_thumbs = function(args) {
         app_style: "",
         items: [],
         height: 200
-    }
+    };
 
 
     this.scroll_steps = 20;
     this.scroll_frame_delay = 20;
 
-}
+};
 
 
 
@@ -163,6 +163,6 @@ core.apps.slideshow_thumbs.prototype = {
         desktop.openImageBox(l, this.active_idx);
     }
 
-}
+};
 core.apps.slideshow_thumbs.extendPrototype(core.components.html_component);
 core.apps.slideshow_thumbs.extendPrototype(core.components.desktop_app);

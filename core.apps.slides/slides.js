@@ -9,7 +9,7 @@ core.apps.slides = function(args) {
         image_effect: "fade",
         height: 200,
         navigation: true
-    }
+    };
 
     this.active_slide = 0;
     this.is_show_started = false;
@@ -23,7 +23,7 @@ core.apps.slides = function(args) {
 
     this.speedEffect = 30;
     this.speedEffectAppear = 40;
-}
+};
 
 
 
@@ -343,6 +343,6 @@ core.apps.slides.prototype = {
     }
 
 
-}
+};
 core.apps.slides.extendPrototype(core.components.html_component);
 core.apps.slides.extendPrototype(core.components.desktop_app);

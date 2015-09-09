@@ -10,12 +10,12 @@ core.apps.auto_gallery = function(args) {
         image_height: 100,
         variable_content: false,
         hide_if_empty: true
-    }
+    };
 
 
 //    this.theme_style_key = "image_gallery";
 
-}
+};
 
 
 core.apps.auto_gallery.prototype = {
@@ -47,7 +47,7 @@ core.apps.auto_gallery.prototype = {
                 dialog: "files",
                 act: "search_images",
                 q: this.profile["keywords"]
-            }
+            };
             core.transport.send("/controller.php", p, this.onSearchImagesResponce.bind(this));
         }
     },
@@ -63,6 +63,6 @@ core.apps.auto_gallery.prototype = {
     }
 
 
-}
+};
 core.apps.auto_gallery.extendPrototype(core.components.html_component);
 core.apps.auto_gallery.extendPrototype(core.components.desktop_app);

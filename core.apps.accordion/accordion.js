@@ -9,11 +9,11 @@ core.apps.accordion = function(args) {
         texts_content: {},
         type: "content", 
         event: "onclick" 
-    }
+    };
 
     this.steps = 10;
 
-}
+};
 
 
 core.apps.accordion.prototype = {
@@ -82,8 +82,8 @@ core.apps.accordion.prototype = {
                 m[0].events[this.profile["event"]] = [ "onLabelEvent", text_id ];
                 var mc = 
                     { tag: "div", className: "block_content",
-                      id: "block_content" + text_id }
-                if(is_admin) mc.events = { onclick: [ "onTextClick", text_id ] }
+                      id: "block_content" + text_id };
+                if(is_admin) mc.events = { onclick: [ "onTextClick", text_id ] };
                 m.push(mc);
             }
 
@@ -153,6 +153,6 @@ core.apps.accordion.prototype = {
 
 
 
-}
+};
 core.apps.accordion.extendPrototype(core.components.html_component);
 core.apps.accordion.extendPrototype(core.components.desktop_app);

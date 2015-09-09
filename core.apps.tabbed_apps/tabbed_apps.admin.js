@@ -75,7 +75,7 @@ core.apps.tabbed_apps.extendPrototype({
                 file: "Icon:"
             },
             files_filter: "pictures"
-        }
+        };
         desktop.showPopupApp("list_editor");
     },
 
@@ -187,7 +187,7 @@ core.apps.tabbed_apps.extendPrototype({
             title: this.profile.title,
             list: this.profile.list,
             content_elements: this.getContentElements()
-        }
+        };
         return data;
     },
 

@@ -101,7 +101,7 @@ core.apps.thumbnails.extendPrototype({
             },
             add_action: "select_file",
             files_filter: "pictures",
-        }
+        };
         desktop.showPopupApp("list_editor");
     },
 
@@ -163,7 +163,7 @@ core.apps.thumbnails.extendPrototype({
         var res = {
             title: p.title,
             list: this.getItemsList()
-        }
+        };
         return res;
     },
 

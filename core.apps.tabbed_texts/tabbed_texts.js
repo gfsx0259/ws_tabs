@@ -13,13 +13,13 @@ core.apps.tabbed_texts = function(args) {
         speed: 1,
         variable_content: false,
         auto_height: true
-    }
+    };
 
     this.active_tab = null;
 
     this.intervals = [ 10, 30, 45 ];
 
-}
+};
 
 
 core.apps.tabbed_texts.prototype = {
@@ -83,7 +83,7 @@ core.apps.tabbed_texts.prototype = {
                     { tag: "div",
                       style: { minHeight: "10px" },
                       id: "text" + texts[i] }
-                  ]}
+                  ]};
             if(is_admin) {
                 m.events = { onclick: "onTabContentClick" }
             }
@@ -108,7 +108,7 @@ core.apps.tabbed_texts.prototype = {
                 icons: [],
                 text_ids: [],
                 texts_content: {}
-            }
+            };
             if(core.data.variable_content.docs && core.data.variable_content.docs.length) {
                 for(var i=0; i<core.data.variable_content.docs.length; i++) {
                     var d = core.data.variable_content.docs[i];
@@ -273,6 +273,6 @@ core.apps.tabbed_texts.prototype = {
         this.scrollTabs(1);
     }
 
-}
+};
 core.apps.tabbed_texts.extendPrototype(core.components.html_component);
 core.apps.tabbed_texts.extendPrototype(core.components.desktop_app);

@@ -7,13 +7,13 @@ core.apps.tabbed_widgets = function(args) {
         speed: 1,
         tabs: [],
         icons: []
-    }
+    };
 
     this.active_tab = null;
 
     this.intervals = [ 10, 30, 45 ];
 
-}
+};
 
 
 core.apps.tabbed_widgets.prototype = {
@@ -234,6 +234,6 @@ core.apps.tabbed_widgets.prototype = {
         return this.$["cell" + c];
     }
 
-}
+};
 core.apps.tabbed_widgets.extendPrototype(core.components.html_component);
 core.apps.tabbed_widgets.extendPrototype(core.components.desktop_app);

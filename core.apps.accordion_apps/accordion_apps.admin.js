@@ -72,7 +72,7 @@ core.apps.accordion_apps.extendPrototype({
                 title: "Title:",
                 file: "Icon:"
             }
-        }
+        };
         desktop.showPopupApp("list_editor");
     },
 
@@ -171,7 +171,7 @@ core.apps.accordion_apps.extendPrototype({
             title: this.profile.title,
             list: this.profile.list,
             content_elements: this.getContentElements()
-        }
+        };
         return data;
     },
 

@@ -1,14 +1,14 @@
 /*container|Container*/
 .thumbnails {
     position: relative;
-    background: transparent url(/themes/.default/images/thumbnails/box.png) no-repeat left top;
+    background: transparent url('/js_apps/core.apps.thumbnails/images/arrows.gif') no-repeat left top;
 }
 
 
 /*container_rd|Container right door*/
 .thumbnails .r {
     margin-left: 10px;
-    background: transparent url(/themes/.default/images/thumbnails/box.png) no-repeat right top;
+    background: transparent url('/js_apps/core.apps.thumbnails/images/box.png') no-repeat right top;
 }
 
 
@@ -30,7 +30,7 @@
     cursor: pointer;
     z-index: 10;
     top: 96px;
-    background: transparent url(/themes/.default/images/thumbnails/arrows.gif) no-repeat left top;
+    background: transparent url('/js_apps/core.apps.thumbnails/images/arrows.gif') no-repeat left top;
     left: 8px;
 }
 
@@ -42,7 +42,7 @@
     cursor: pointer;
     z-index: 10;
     top: 96px;
-    background: transparent url(/themes/.default/images/thumbnails/arrows.gif) no-repeat right top;
+    background: transparent url('/js_apps/core.apps.thumbnails/images/arrows.gif') no-repeat right top;
     right: 8px;
 }
 
@@ -78,7 +78,7 @@
 .thumbnails .border {
     width: 173px;
     height: 148px;
-    background: transparent url(/themes/.default/images/thumbnails/border.png) no-repeat left top;
+    background: transparent url('/js_apps/core.apps.thumbnails/images/border.png') no-repeat left top;
     padding: 5px;
 }
 

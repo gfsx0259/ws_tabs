@@ -40,7 +40,7 @@ core.apps.auto_gallery.extendPrototype({
         this.$["inp_hide_if_empty"].setChecked(this.profile["hide_if_empty"]);
 
         this.$["inp_popup"].setChecked(this.profile["popup"]);
-        this.$["inp_image_height"].setValue({ height: this.profile["image_height"] });;
+        this.$["inp_image_height"].setValue({height: this.profile["image_height"]});
         this.$["inp_cols"].setValue(this.profile["cols"]);
         this.$["inp_keywords"].value = this.profile["keywords"];
     },

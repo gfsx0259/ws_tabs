@@ -8,30 +8,38 @@ table.carosel td {
     vertical-align: top;
 }
 
-    .carosel .tl {
-        width: 1%;
-    }
-    .carosel .tc {
-        width: 98%;
-    }
-    .carosel .tr {
-        width: 1%;
-    }
-    .carosel .ml {
-        width: 1%;
-    }
-    .carosel .mc {
-        width: 98%;
-    }
-    .carosel .mr {
-        width: 1%;
-    }
-    .carosel .bl {
-        width: 1%;
-    }
-    .carosel .bc {
-        width: 98%;
-    }
-    .carosel .br {
-        width: 1%;
-    }
+.carosel .tl {
+    width: 1%;
+}
+
+.carosel .tc {
+    width: 98%;
+}
+
+.carosel .tr {
+    width: 1%;
+}
+
+.carosel .ml {
+    width: 1%;
+}
+
+.carosel .mc {
+    width: 98%;
+}
+
+.carosel .mr {
+    width: 1%;
+}
+
+.carosel .bl {
+    width: 1%;
+}
+
+.carosel .bc {
+    width: 98%;
+}
+
+.carosel .br {
+    width: 1%;
+}

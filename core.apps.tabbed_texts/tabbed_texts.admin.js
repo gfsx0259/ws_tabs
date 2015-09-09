@@ -80,6 +80,7 @@ core.apps.tabbed_texts.extendPrototype({
             this.profile.texts_content = [];
             this.profile.icons = [];
         }
+
     },
 
 
@@ -119,7 +120,7 @@ core.apps.tabbed_texts.extendPrototype({
                 doc: "Content:"
             },
             files_filter: "pictures"
-        }
+        };
         desktop.showPopupApp("list_editor");
     },
 
@@ -237,7 +238,7 @@ core.apps.tabbed_texts.extendPrototype({
         var res = {
             title: p.title,
             list: this.getItemsList()
-        }
+        };
         return res;
     },
 
