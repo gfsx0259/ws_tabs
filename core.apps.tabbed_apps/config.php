@@ -6,7 +6,6 @@ $config["js_apps"]["core.apps.tabbed_apps"] = array(
         'title' => 'Tabbed widgets',
         'name' => 'tabbed_apps',//should be like 3th part of folder
         'version' => '1.0.0',
-        'icon' => 'icon.png',
         'category' => CATEGORY_TABS_SLIDES,
         'description' => '',
         'depends' => [

@@ -74,7 +74,7 @@
     height: 8px;
     cursor: pointer;
     top: 0;
-    background: transparent url('/js_apps/core.apps.slideshow_thumbs/images/arrow_up.png') no-repeat;
+    background: transparent url('/vendor/generdyn/tabs/core.apps.slideshow_thumbs/images/arrow_up.png') no-repeat;
 }
 /*btn_next|Button next*/
 .slideshow_thumbs .btn_next {
@@ -84,7 +84,7 @@
     height: 8px;
     cursor: pointer;
     bottom: 0;
-    background: transparent url('/js_apps/core.apps.slideshow_thumbs/images/arrow_down.png') no-repeat;
+    background: transparent url('/vendor/generdyn/tabs/core.apps.slideshow_thumbs/images/arrow_down.png') no-repeat;
 }
 /*btn_zoom|Button zoom*/
 .img_box_center .btn_zoom {
@@ -97,6 +97,6 @@
 
 /*btn_zoom:hover|Button zoom hover*/
 .img_box_center .btn_zoom:hover {
-background: url("/js_apps/core.apps.slideshow_thumbs/images/btn_zoom.png") no-repeat scroll center center transparent;
+background: url("/vendor/generdyn/tabs/core.apps.slideshow_thumbs/images/btn_zoom.png") no-repeat scroll center center transparent;
 }
 

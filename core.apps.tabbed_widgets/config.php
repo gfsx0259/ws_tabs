@@ -1,6 +1,14 @@
-<?
+<?php
 
 $config["js_apps"]["core.apps.tabbed_widgets"] = array(
+
+    'general' => array(
+        'title' => 'Tabbed widgets',
+        'name' => 'tabbed_widgets',//should be like 3th part of folder
+        'version' => '1.0.0',
+        'category' => CATEGORY_HIDDEN,
+        'description' => '',
+    ),
 
 
     "content" => array(

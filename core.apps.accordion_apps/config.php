@@ -6,7 +6,6 @@ $config["js_apps"]["core.apps.accordion_apps"] = array(
         'title' => 'Accordion widgets',
         'name' => 'accordion_apps',//should be like 3th part of folder
         'version' => '1.0.0',
-        'icon' => 'icon.png',
         'category' => CATEGORY_TABS_SLIDES,
         'description' => 'Allow use any widgets inside the Accordion',
         'depends' => [

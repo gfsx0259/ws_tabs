@@ -6,7 +6,6 @@ $config["js_apps"]["core.apps.thumbnails"] = array(
         'title' => 'Thumbnails',
         'name' => 'thumbnails',//should be like 3th part of folder
         'version' => '1.0.0',
-        'icon' => 'thumbnails.png',
         'category' => CATEGORY_TABS_SLIDES,
         'description' => '',
         'depends'=>[
