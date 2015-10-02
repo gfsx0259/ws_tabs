@@ -9,9 +9,9 @@ $config["js_apps"]["core.apps.thumbnails"] = array(
         'category' => CATEGORY_TABS_SLIDES,
         'description' => '',
         'depends'=>[
-            'ecommerce_category',
-            'ecommerce',
-            'list_editor'
+            'ecommerce/ecommerce_category',
+            'ecommerce/ecommerce',
+            'core/list_editor'
         ]
     ),
 
